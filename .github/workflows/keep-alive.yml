@@ -1,7 +1,7 @@
 name: Keep Supabase Alive
 on:
   schedule:
-    - cron: '0 0 * * 3'  # 毎週水曜 00:00 UTC（7日以内に必ず実行）
+    - cron: '0 0 * * 1,4'  # 月曜・木曜 00:00 UTC
   workflow_dispatch:
 
 jobs:
